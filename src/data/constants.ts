@@ -1,5 +1,13 @@
 export const projects = [
     {
+    "title": "ChatUr-Bot",
+    "description": "PDF-based AI Chatbot using RAG for accurate responses with citations. It extracts relevant text, handles structured data (tables, references), and enhances retrieval for precise answers.",
+    "siteUrl": "https://rag-eosin-chi.vercel.app/",
+    "techUsed": ["Next.js", "TailwindCSS", "Node.js", "Express.js", "MongoDB", "LlamaParser", "Gemini", "Cosine Similarity", "Ai-Sdk"],
+    "github" : "https://github.com/Ashmit111/RAG",
+    "src": "/RAG.png"
+    },
+    {
       "title": "FeedBack-atBacK",
       "description": "An anonymous message site, allowing users to give true feedback without revealing their identity. Also features message generation using Gemini.",
       "siteUrl": "https://feedback-lilac-chi.vercel.app/",
@@ -23,6 +31,6 @@ export const projects = [
       "techUsed": ["React.js", "TailwindCSS", "Appwrite"],
       "github" : "https://github.com/Ashmit111/CrowdConnect",
       "src": "/crowdconnect.png"
-    }
+    },
   ]
   
