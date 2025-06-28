@@ -24,6 +24,12 @@ export const projects = [
       "github" : "https://github.com/Ashmit111/MyVideoMate",
       "src": "/videomate.png"
     },
+    { "title": "GTA-VI",
+      "description": "A GTA-VI Landing Page built with vite and gsap with stunning animation",
+      "siteUrl": "https://gta6landingpage.vercel.app/",
+      "techUsed" : ["React.js", "GSAP"],
+      "github" : "https://github.com/Ashmit111/gta6_lp",
+      "src":"/gta.png" },
     {
       "title": "CrowdConnect",
       "description": "An event hosting and management website where users can register for events.",
