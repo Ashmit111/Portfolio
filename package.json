@@ -9,13 +9,14 @@
     "lint": "next lint"
   },
   "eslintConfig": {
-  "rules": {
-    "react/no-unescaped-entities": "off",
-    "@typescript-eslint/no-unused-vars": "off"
-  }
-},
+    "rules": {
+      "react/no-unescaped-entities": "off",
+      "@typescript-eslint/no-unused-vars": "off"
+    }
+  },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^11.2.0",
+    "@vercel/analytics": "^1.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.1",
