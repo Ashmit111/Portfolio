@@ -4,7 +4,7 @@ import { MdMail } from "react-icons/md";
 import TypewriterEffect from '@/components/ui/TypeWriter';
 
 
-function page() {
+function Page() {
   return ( 
     <div>
       <div className='flex justify-center items-center h-96 mt-24 flex-col '>
@@ -27,4 +27,4 @@ function page() {
   )
 }
 
-export default page
+export default Page;

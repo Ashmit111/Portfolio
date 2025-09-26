@@ -59,6 +59,33 @@ function Page() {
           </motion.button>
         </div>
       </div>
+
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Ashmit Singh",
+            "url": "https://iamashmit.tech",
+            "jobTitle": "Full-Stack Developer",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Ashmit Singh"
+            },
+            "sameAs": [
+              "https://github.com/Ashmit111",
+              "https://www.linkedin.com/in/ashmit-singh-768456257/"
+            ],
+            "image": "https://iamashmit.tech/front.jpeg",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://iamashmit.tech"
+            }
+          })
+        }}
+      />
     </div>
   )
 }

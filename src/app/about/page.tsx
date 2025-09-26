@@ -22,8 +22,8 @@ const Page: React.FC = () => {
             Hey I&apos;m <b className="text-cyan-300">Ashmit</b>
           </p>
           <TypewriterEffect
-            text="A 3rd-year engineering student from Mumbai and a self-taught Full-Stack Developer who loves bringing websites to life. I enjoy building complex backend systems while also crafting engaging and visually appealing frontends. Beyond coding, I love reading books and travelling. Currently, I’m exploring new technologies in Web3 and sharpening my problem-solving skills through competitive programming 🚀"
-            delay={300}
+            text="A Final year engineering student from Mumbai and a self-taught Full-Stack Developer who loves bringing websites to life. I enjoy building complex backend systems while also crafting engaging and visually appealing frontends. Beyond coding, I love reading books and travelling. Currently, I’m exploring new technologies in Web3 and sharpening my problem-solving skills through competitive programming 🚀"
+            delay={250}
             className="font-mono text-gray-400 pt-4"
           />
         </div>
